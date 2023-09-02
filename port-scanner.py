@@ -10,7 +10,7 @@ max_port = 65535
 open_ports = []
 
 while True:
-    ip = input("Please enter IP adress (or localhost): ")
+    ip = input("Please enter IP adress (or localhost) : ")
     if ip_model.search(ip):
         print(f"{ip} is a IP address to scan")
         break
